@@ -1,0 +1,19 @@
+{% load static %}
+
+
+{% block content%}
+
+<h1 style="font-family:Georgia;font:40px;font-style:normal;"> Index </h1>
+
+<li><a href="{% url 'category' %}">Get Categories</a></li>
+<li><a href="{% url 'movie' %}">Get Movies</a></li>
+<li><a href="{% url 'movie-details' %}">Get Movie Details</a></li>
+<li><a href="{% url 'movie-list' %}">Get Movie Lists</a></li>
+<li><a href="{% url 'movie-list-details' %}">Get Movie List Details</a></li>
+<li><a href="{% url 'create-movie-list' %}">Create Movie List</a></li>
+<li><a href="{% url 'add-movie' %}">Add Movies to List</a></li>
+<li><a href="{% url 'remove-movie' %}">Remove Movies from List</a></li>
+<li><a href="{% url 'delete-movie-list' %}">Delete Movie Lists</a></li>
+
+
+{% endblock %}

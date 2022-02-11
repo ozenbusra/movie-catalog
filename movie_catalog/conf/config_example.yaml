@@ -1,0 +1,9 @@
+postgre_db:
+  server: "***" 
+  database: "***"
+  port: "***"
+  user: "***"
+  password: "***"
+django_config:
+  secret_key: "***"
+  debug: false
